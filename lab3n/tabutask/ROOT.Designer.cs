@@ -46,9 +46,12 @@
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2Panel1_conteiner = new Guna.UI2.WinForms.Guna2Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
+            this.guna2Panel1_conteiner.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -72,7 +75,7 @@
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(206, 497);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(209, 497);
             this.guna2CustomGradientPanel1.TabIndex = 19;
             // 
             // label2
@@ -123,7 +126,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(0, 181);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(203, 56);
+            this.guna2Button1.Size = new System.Drawing.Size(206, 56);
             this.guna2Button1.TabIndex = 21;
             this.guna2Button1.Text = "Профиль";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -139,7 +142,7 @@
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.Location = new System.Drawing.Point(0, 429);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(203, 56);
+            this.guna2Button5.Size = new System.Drawing.Size(206, 56);
             this.guna2Button5.TabIndex = 25;
             this.guna2Button5.Text = "Сменить профиль";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
@@ -155,7 +158,7 @@
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.Location = new System.Drawing.Point(0, 243);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(203, 56);
+            this.guna2Button2.Size = new System.Drawing.Size(206, 56);
             this.guna2Button2.TabIndex = 22;
             this.guna2Button2.Text = "Задание";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -171,7 +174,7 @@
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
             this.guna2Button4.Location = new System.Drawing.Point(0, 367);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(203, 56);
+            this.guna2Button4.Size = new System.Drawing.Size(206, 56);
             this.guna2Button4.TabIndex = 24;
             this.guna2Button4.Text = "Отчеты";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -185,9 +188,9 @@
             this.guna2Button3.FillColor = System.Drawing.Color.RoyalBlue;
             this.guna2Button3.Font = new System.Drawing.Font("Arial", 12F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(0, 305);
+            this.guna2Button3.Location = new System.Drawing.Point(-3, 305);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(203, 56);
+            this.guna2Button3.Size = new System.Drawing.Size(206, 56);
             this.guna2Button3.TabIndex = 23;
             this.guna2Button3.Text = "Заметка";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -201,9 +204,9 @@
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(206, 0);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(209, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(794, 35);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(791, 35);
             this.guna2GradientPanel1.TabIndex = 20;
             // 
             // guna2ControlBox2
@@ -212,7 +215,7 @@
             this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
             this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox2.IconColor = System.Drawing.Color.RoyalBlue;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(695, 3);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(692, 3);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox2.TabIndex = 25;
@@ -223,7 +226,7 @@
             this.guna2ControlBox1.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.RoyalBlue;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(644, 3);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(641, 3);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 24;
@@ -233,7 +236,7 @@
             this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox3.IconColor = System.Drawing.Color.RoyalBlue;
-            this.guna2ControlBox3.Location = new System.Drawing.Point(746, 3);
+            this.guna2ControlBox3.Location = new System.Drawing.Point(743, 3);
             this.guna2ControlBox3.Name = "guna2ControlBox3";
             this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox3.TabIndex = 23;
@@ -242,11 +245,20 @@
             // guna2Panel1_conteiner
             // 
             this.guna2Panel1_conteiner.AutoSize = true;
+            this.guna2Panel1_conteiner.Controls.Add(this.dataGridView1);
             this.guna2Panel1_conteiner.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel1_conteiner.Location = new System.Drawing.Point(206, 35);
+            this.guna2Panel1_conteiner.Location = new System.Drawing.Point(209, 35);
             this.guna2Panel1_conteiner.Name = "guna2Panel1_conteiner";
-            this.guna2Panel1_conteiner.Size = new System.Drawing.Size(794, 462);
+            this.guna2Panel1_conteiner.Size = new System.Drawing.Size(791, 462);
             this.guna2Panel1_conteiner.TabIndex = 21;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(791, 459);
+            this.dataGridView1.TabIndex = 0;
             // 
             // ROOT
             // 
@@ -264,6 +276,8 @@
             this.guna2CustomGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
+            this.guna2Panel1_conteiner.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,5 +301,6 @@
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1_conteiner;
         public Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

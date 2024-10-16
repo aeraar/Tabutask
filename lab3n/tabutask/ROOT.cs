@@ -20,6 +20,7 @@ namespace tabutask
         private Rectangle recBut2;
         private Rectangle recBut3;
         private Rectangle recBut4;
+        private Rectangle recBut5;
         public ROOT()
         {
             InitializeComponent();
@@ -32,6 +33,7 @@ namespace tabutask
             recBut2 = new Rectangle(guna2Button2.Location, guna2Button2.Size);
             recBut3 = new Rectangle(guna2Button3.Location, guna2Button3.Size);
             recBut4 = new Rectangle(guna2Button4.Location, guna2Button4.Size);
+            recBut5 = new Rectangle(guna2Button5.Location, guna2Button5.Size);
         }
         private void ROOT_Resiz(object sender, EventArgs e)
         {
@@ -42,6 +44,7 @@ namespace tabutask
             resize_Control(guna2Button2, recBut2);
             resize_Control(guna2Button3, recBut3);
             resize_Control(guna2Button4, recBut4);
+            resize_Control(guna2Button5, recBut5);
         }
         private void resize_Control(Control c, Rectangle r)
         {
