@@ -19,6 +19,8 @@ namespace tabutask
         private Rectangle recTex5;
         private Rectangle recTex2;
 
+
+
         public Profile()
         {
             InitializeComponent();
@@ -28,6 +30,7 @@ namespace tabutask
             recTex6 = new Rectangle(guna2TextBox6.Location, guna2TextBox6.Size);
             recTex5 = new Rectangle(guna2TextBox5.Location, guna2TextBox5.Size);
             recTex2 = new Rectangle(guna2TextBox2.Location, guna2TextBox2.Size);
+
         }
         private void profile_Resiz(object sender, EventArgs e)
         {
@@ -52,5 +55,10 @@ namespace tabutask
         }
 
 
+
+
+
+
     }
+
 }

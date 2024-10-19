@@ -66,22 +66,23 @@ namespace tabutask
             guna2ShadowForm1.SetShadowForm(this);
 
         }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            container(new Profile());
-        }
         
         private void container(object _form)
         {
             if (guna2Panel1_conteiner.Controls.Count > 0) guna2Panel1_conteiner.Controls.Clear(); ;
-            
+
             Form fm = _form as Form;
             fm.TopLevel = false;
-            fm.FormBorderStyle = FormBorderStyle.None;
-            guna2Panel1_conteiner.Controls.Add( fm );
+            fm.FormBorderStyle = FormBorderStyle.None; // Без границ
+            fm.Dock = DockStyle.Fill;  // Заставляем форму занять всё пространство контейнера
+            guna2Panel1_conteiner.Controls.Add(fm);
             guna2Panel1_conteiner.Tag = fm;
             fm.Show();
+
+        }
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            container(new Profile());
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -115,5 +116,6 @@ namespace tabutask
         {
             Application.Exit();
         }
+
     }
 }
