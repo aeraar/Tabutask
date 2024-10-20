@@ -1,0 +1,16 @@
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Authorization.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Admine.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Notes.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Profile.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Reports.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ROOT.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tasks.resources
+C:\Users\tuman\Desktop\lab3n\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Tasks_Create.resources
